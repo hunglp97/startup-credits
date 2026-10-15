@@ -52,8 +52,8 @@ offers:
       rule:
         criterion_id: cri_01
         kind: manual
-        reason: not-machine-evaluable
-        statement: Fill out our application form with your startup details and vision.
+        reason: vendor-discretion
+        statement: Applications are reviewed and approved by the Z.ai team.
     roles:
       terms_authority_entity_id: ent_01m50a7hyn7r160n2wpf6c41fx
       access_operator_entity_id: ent_01m50a7hyn7r160n2wpf6c41fx

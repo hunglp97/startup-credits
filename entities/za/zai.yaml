@@ -1,8 +1,9 @@
 schema_version: sourcey.entity-authoring/v1alpha1
 entity:
   entity_id: ent_01m50a7hyn7r160n2wpf6c41fx
-  slug: z-ai
-  slug_aliases: []
+  slug: zai
+  slug_aliases:
+    - z-ai
   name: Z.ai
   domains:
     - value: z.ai

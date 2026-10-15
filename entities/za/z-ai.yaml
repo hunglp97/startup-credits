@@ -1,0 +1,65 @@
+schema_version: sourcey.entity-authoring/v1alpha1
+entity:
+  entity_id: ent_01m50a7hyn7r160n2wpf6c41fx
+  slug: z-ai
+  slug_aliases: []
+  name: Z.ai
+  domains:
+    - value: z.ai
+      role: primary
+      valid_from: 2026-08-01T00:00:00.000Z
+  category: ai-ml
+profile:
+  summary: Z.ai is an advanced AI assistant and platform powered by GLM models for code, websites, and agentic tasks.
+  description: Z.ai is an advanced AI assistant and agent platform powered by GLM-5.3-Flash, enabling developers to build websites, write code, and handle long-horizon tasks.
+  links:
+    site: https://z.ai/
+sources:
+  - source_id: src_2ef9980f777073bad6ea2436e9600a7ff4d77b2efc90646c238f058d020f6a20
+    url: https://z.ai/
+  - source_id: src_c89b2b8ec057779c3858c8a1c68bc25d42ebc8ed7c9cecbf76710ca6275a550b
+    url: https://startup.z.ai/
+programs:
+  - program_id: prg_01m50a7hyny6drn3f6qw4f8kwn
+    program_slug: z-ai-startups-program
+    program_slug_aliases: []
+    title: Z.ai Startups Program
+    summary: Z.ai Startups Program offers AI credits, technical support, and resources to accelerate startup growth.
+    source_ids:
+      - src_c89b2b8ec057779c3858c8a1c68bc25d42ebc8ed7c9cecbf76710ca6275a550b
+offers:
+  - offer_id: off_01m50a7hynefeggn8te4dfrh4r
+    program_id: prg_01m50a7hyny6drn3f6qw4f8kwn
+    offer_slug: free-api-credits-up-to-1b-tokens-and-dedicated-support
+    offer_slug_aliases: []
+    title: Free API credits up to 1B tokens and dedicated technical support
+    summary: Qualifying startups receive free API credits up to 1B tokens, volume pricing on GLM models, and dedicated technical support.
+    lifecycle:
+      status: active
+      effective_from: 2026-08-01T00:00:00.000Z
+    economics:
+      consideration:
+        kind: none
+      benefits:
+        - benefit_id: ben_api_credits
+          description: Free API credits up to 1B tokens on GLM models
+          kind: other
+        - benefit_id: ben_support
+          description: Dedicated technical support and priority rate limits
+          kind: other
+    eligibility:
+      rule:
+        criterion_id: cri_01
+        kind: manual
+        reason: vendor-discretion
+        statement: Startups building AI products can apply by submitting product and team details.
+    roles:
+      terms_authority_entity_id: ent_01m50a7hyn7r160n2wpf6c41fx
+      access_operator_entity_id: ent_01m50a7hyn7r160n2wpf6c41fx
+    access:
+      availability: public
+      instructions: Fill out the application form on startup.z.ai with startup details and vision.
+      method: form
+      url: https://startup.z.ai/
+    source_ids:
+      - src_c89b2b8ec057779c3858c8a1c68bc25d42ebc8ed7c9cecbf76710ca6275a550b

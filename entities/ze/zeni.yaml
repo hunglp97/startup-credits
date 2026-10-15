@@ -7,12 +7,13 @@ entity:
   domains:
     - value: zeni.ai
       role: primary
-      valid_from: 2026-10-14T00:00:00.000Z
+      valid_from: 2026-08-01T12:27:57.374Z
   category: finance-accounting
 profile:
+  summary: Zeni is an AI-powered finance concierge for startups offering bookkeeping, accounting, CFO, and tax services.
   description: Zeni is an AI-powered finance concierge for startups offering full-service bookkeeping, accounting, CFO, and tax services and a real-time financial dashboard.
   links:
-    site: https://zeni.ai
+    site: https://www.zeni.ai
 sources:
   - source_id: src_078940ac018c343633b7767e9585c438cab40111d8e65ed3520c075733d112a2
     url: https://www.zeni.ai/
@@ -24,10 +25,10 @@ offers:
     offer_slug: 25-off-first-6-months-of-zeni-services-plus-waived-setup-fees
     offer_slug_aliases: []
     title: 25% off your first 6-months of Zeni services, plus waived setup fees
-    summary: Get 25% off your first 6 months of Zeni services, plus waived setup fees, for U.S.-based startups through Pulley.
+    summary: 25% off your first 6-months of Zeni services, plus waived setup fees for U.S.-based startups.
     lifecycle:
       status: active
-      effective_from: 2026-10-14T00:00:00.000Z
+      effective_from: 2026-08-01T12:27:57.374Z
     economics:
       benefits:
         - applies_to: Zeni services
@@ -45,16 +46,17 @@ offers:
           kind: waiver
           waived_item: setup fees
       consideration:
-        kind: none
+        kind: variable
+        description: Paying discounted service fees for Zeni services during the first 6 months.
     eligibility:
       rule:
         criterion_id: cri_01
-        kind: constant
+        kind: manual
+        reason: not-machine-evaluable
         statement: Available to U.S.-based startups.
-        value: true
     roles:
       terms_authority_entity_id: ent_01m508m47z1vyz7xdby7wjfnvx
-      access_operator_entity_id: ent_01kyyr9svfavvhqt4vy0e0b25k
+      access_operator_entity_id: ent_01m508m47z1vyz7xdby7wjfnvx
     access:
       availability: membership
       method: other

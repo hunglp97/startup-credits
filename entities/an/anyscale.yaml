@@ -7,7 +7,7 @@ entity:
   domains:
     - value: anyscale.com
       role: primary
-      valid_from: 2025-01-01T00:00:00Z
+      valid_from: 2026-10-14T00:00:00Z
   category: ai-ml
 profile:
   description: Anyscale provides a Ray-compatible runtime delivering faster performance and reliability to run AI workloads.
@@ -36,7 +36,7 @@ offers:
     summary: Access up to $20K in Anyscale credits to run on your own cloud, with Dedicated Field Engineers to support application architecture design.
     lifecycle:
       status: active
-      effective_from: 2025-01-01T00:00:00Z
+      effective_from: 2026-10-14T00:00:00Z
     economics:
       benefits:
         - benefit_id: ben_01

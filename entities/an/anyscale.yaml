@@ -10,8 +10,8 @@ entity:
       valid_from: 2026-10-15T00:00:00Z
   category: ai-ml
 profile:
-  description: Anyscale empowers AI teams to build, run, and scale Ray workloads across multi-cloud and on-premises infrastructure.
-  summary: Anyscale is an AI compute platform powered by Ray for training, fine-tuning, and serving distributed AI applications.
+  description: Anyscale provides a Ray-compatible runtime delivering faster performance and reliability to run AI workloads.
+  summary: Anyscale provides a Ray-compatible runtime and platform to launch AI-native applications faster.
   links:
     site: https://www.anyscale.com
 sources:
@@ -22,7 +22,7 @@ programs:
     program_slug: anyscale-ai-startup-program
     program_slug_aliases: []
     title: Anyscale AI Startup Program
-    summary: The Anyscale AI Startup Program provides early-stage AI startups with credits, dedicated technical guidance, and scalable infrastructure.
+    summary: Build the next generation of AI-native applications with Anyscale credits, technical support, and a platform to launch AI applications faster.
     source_ids:
       - src_49028cb5466b7d092afc95d88e840c34d1a6f5e20b4d1e3e513678ecace057c2
 offers:
@@ -31,7 +31,7 @@ offers:
     offer_slug: anyscale-ai-startup-program-credits
     offer_slug_aliases: []
     title: Up to $20,000 in Anyscale Credits and Technical Support
-    summary: Eligible early-stage startups can access up to $20,000 in Anyscale credits, Ray runtime support, and hands-on guidance from dedicated field engineers.
+    summary: Access up to $20K in Anyscale credits to run on your own cloud, with Dedicated Field Engineers to support application architecture design.
     lifecycle:
       status: active
       effective_from: 2026-10-15T00:00:00Z
@@ -46,7 +46,7 @@ offers:
               minor_units: 2000000
             kind: up-to
         - benefit_id: ben_02
-          description: Dedicated Field Engineers for application architecture design and technical support
+          description: Dedicated Field Engineers to support application architecture design and hands-on technical support
           kind: other
       consideration:
         kind: none
@@ -55,13 +55,12 @@ offers:
         criterion_id: cri_01
         kind: manual
         reason: vendor-discretion
-        statement: Open to early-stage teams reviewed for funding level, technical maturity, and cloud infrastructure; formal application and evaluation required.
+        statement: Eligibility is generally open to companies at various stages, though factors such as level of funding, technical maturity, and current cloud infrastructure may be considered during review.
     roles:
       terms_authority_entity_id: ent_01m505gsjcbc678ve89swhbnbh
       access_operator_entity_id: ent_01m505gsjcbc678ve89swhbnbh
     access:
       availability: public
-      instructions: Submit the online application form to qualify and proceed to onboarding for program benefits.
       method: form
       url: https://www.anyscale.com/startup
     source_ids:

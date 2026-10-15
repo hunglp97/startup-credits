@@ -8,7 +8,7 @@ entity:
   domains:
     - value: z.ai
       role: primary
-      valid_from: 2026-08-01T00:00:00.000Z
+      valid_from: 2026-10-14T00:00:00Z
   category: ai-ml
 profile:
   summary: Z.ai is an advanced AI assistant and platform powered by GLM models for code, websites, and agentic tasks.
@@ -37,7 +37,7 @@ offers:
     summary: Qualifying startups receive free API credits up to 1B tokens, volume pricing on GLM models, and dedicated technical support.
     lifecycle:
       status: active
-      effective_from: 2026-08-01T00:00:00.000Z
+      effective_from: 2026-10-14T00:00:00Z
     economics:
       consideration:
         kind: none
